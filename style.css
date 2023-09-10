@@ -1,0 +1,72 @@
+nav{
+    background-color:rgb(180, 171, 171) ;
+    padding: 30px;
+    text-align: end;
+    word-spacing: 50px;
+    
+
+    
+    
+}
+
+.div1{
+    font-size:20px;
+    color:rgb(145, 134, 134);
+    
+}
+
+#div{
+    margin-top: 10px;
+}
+
+section{
+    display: flex;
+}
+
+
+
+ h1{ 
+    text-align: center;
+    color:gray;
+
+}
+
+.sec1{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+.div2{
+    
+    width: 400px;
+    
+    margin-top: 40px;
+    display: flex;
+    
+    
+    
+}
+
+button{
+    text-align: center;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+

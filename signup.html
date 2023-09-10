@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create an Account</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    
+    .registration-container {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .registration-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .registration-container .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .registration-container label {
+      display: block;
+      font-weight: bold;
+    }
+    
+    .registration-container input[type="text"],
+    .registration-container input[type="email"],
+    .registration-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .registration-container input[type="submit"] {
+      width: 100%;
+      background-color:gray;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .registration-container input[type="submit"]:hover {
+      background-color: #181a18;
+    }
+  </style>
+</head>
+<body>
+  <div class="registration-container">
+    <h2>Create an Account</h2>
+    <form action="login.html">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="password">Confirm Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+
+      <div class="form-group">
+        <label >Date of birth</label>
+        <input type="date" required>
+      </div>
+
+
+
+      <input type="submit" value="Create Account">
+    </form>
+  </div>
+</body>
+</html>
